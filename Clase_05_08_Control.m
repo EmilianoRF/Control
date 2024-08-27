@@ -43,3 +43,5 @@ Vo_s = Vi_s*(1/(R*C*s+1))+(R*C*Vo_o)/(R*C*s+1);
 impulse(Vo_s,1)
 
 
+
+
