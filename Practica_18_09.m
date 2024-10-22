@@ -26,7 +26,7 @@ figure
 step(G_bc)
 grid on
 
-%% Ejercicio 2
+%% Ejercicio 3
 close all
 clear all
 clc
@@ -78,3 +78,15 @@ rlocus(G_s)
 
 
 
+
+%% Actividad 5
+
+close all
+clear all
+clc
+
+s = tf("s");
+
+G_s = 2*s/(s^2+6*s+10);
+
+rlocus(G_s);
